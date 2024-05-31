@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="keithkeizza@gmail.com"
+global.email ="dibyenduaditya73@gmail.com"
 global.location="Migori,Kenya."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -15,16 +15,16 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
-global.github=process.env.GITHUB|| "https://github.com/Keithkeizzah/hunchoV2";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47";
-global.website=process.env.GURL || "https://youtube.com/@keithkeizzah?si=PviuOaZQHHvAjpxH" ; 
+global.github=process.env.GITHUB|| "https://github.com/dibyenduaditya";
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/JOaYBcxKWhqGRapHAr59xw";
+global.website=process.env.GURL || "https://instagram.com/i_aam_adi07" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/24893b7355f6ee0312230.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254748387615";
+global.devs = "918653805156" // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "918653805156";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "918653805156";
 
 
 
@@ -38,7 +38,7 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/24893b7355f6ee0312230.jpg",
+global.userImages= process.env.USER_IMAGES|| "false",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -64,12 +64,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙺𝙴𝙸𝚃𝙷-𝚃𝙴𝙲𝙷" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙰𝙳𝙸𝚃𝚈𝙰 𝚇𝙳" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Keith",
-  packname: process.env.PACK_NAME || "👑",
-  botname : process.env.BOT_NAME  || "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
-  ownername:process.env.OWNER_NAME|| "It'x 𝐊𝐄𝐈𝐓𝐇",
+  author : process.env.PACK_AUTHER|| "[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]",
+  packname: process.env.PACK_NAME || "Sticker by",
+  botname : process.env.BOT_NAME  || "<< 𝐈ᴢᴜᴋᴏ - 𝐗ᴅ >>",
+  ownername:process.env.OWNER_NAME|| "✪⏤͟͞★⃝ꪶ‎𝐀ᴅɪᴛʏᴀ-𝐗ᴅ-𖥘✪͜͡➺",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
